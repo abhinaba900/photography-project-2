@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e985c57.css",
+    "main.js": "/static/js/main.13f388a0.js",
+    "static/js/453.0efd63b4.chunk.js": "/static/js/453.0efd63b4.chunk.js",
+    "static/media/zdenek-machacek-UxHol6SwLyM-unsplash.jpg": "/static/media/zdenek-machacek-UxHol6SwLyM-unsplash.d1d4e23256e69e609c8c.jpg",
+    "static/media/mesut-kaya-eOcyhe5-9sQ-unsplash.jpg": "/static/media/mesut-kaya-eOcyhe5-9sQ-unsplash.55d877db79ad3a4f7620.jpg",
+    "static/media/luca-bravo-O453M2Liufs-unsplash.jpg": "/static/media/luca-bravo-O453M2Liufs-unsplash.995412651b484e83c75a.jpg",
+    "static/media/anete-lusina-rFKBUwLg_WQ-unsplash.jpg": "/static/media/anete-lusina-rFKBUwLg_WQ-unsplash.1fd26970c2a780a4259d.jpg",
+    "static/media/joanna-kosinska-qcqmS0JG58Q-unsplash.jpg": "/static/media/joanna-kosinska-qcqmS0JG58Q-unsplash.c53cf095f8e82367476a.jpg",
+    "static/media/atikh-bana-Ycds6emp7BA-unsplash (1).jpg": "/static/media/atikh-bana-Ycds6emp7BA-unsplash (1).eaeedb9248d157d860ba.jpg",
+    "static/media/masha-rostovskaya-Cngzg6CiEU8-unsplash.jpg": "/static/media/masha-rostovskaya-Cngzg6CiEU8-unsplash.136835980e64de6f0b13.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/florencia-potter-cCV85jQ_1n4-unsplash.jpg": "/static/media/florencia-potter-cCV85jQ_1n4-unsplash.5c18f4c53e9c96ffa2f2.jpg",
+    "static/media/Rectangle 25.png": "/static/media/Rectangle 25.1b99e0635fa79653dcbe.png",
+    "static/media/Rectangle 25 (2).png": "/static/media/Rectangle 25 (2).c9e972a1cb5867d05620.png",
+    "static/media/debby-hudson-FO4gzqI2t84-unsplash.jpg": "/static/media/debby-hudson-FO4gzqI2t84-unsplash.fb279d84be7821a4ee76.jpg",
+    "static/media/Rectangle 25 (1).png": "/static/media/Rectangle 25 (1).ac0de256793b0cf87951.png",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/Rectangle 25.jpg": "/static/media/Rectangle 25.9e679da9a8d3e489f8c0.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/ap_logo 1.jpg": "/static/media/ap_logo 1.e8a383d1a2a11005709c.jpg",
+    "index.html": "/index.html",
+    "main.1e985c57.css.map": "/static/css/main.1e985c57.css.map",
+    "main.13f388a0.js.map": "/static/js/main.13f388a0.js.map",
+    "453.0efd63b4.chunk.js.map": "/static/js/453.0efd63b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e985c57.css",
+    "static/js/main.13f388a0.js"
+  ]
+}
