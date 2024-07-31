@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.813rem;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.063rem;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 0;
+}
