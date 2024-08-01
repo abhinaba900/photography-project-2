@@ -49,7 +49,7 @@ function PhotoSlider({ data, BodySections }) {
   return (
     <div className="photograph-slider-container-parent photograph-slider-container-parent-2 container">
       {dataAvailable ? (
-        <>
+        <div className="swiper-main-container">
           <Swiper
             slidesPerView={3}
             spaceBetween={80}
@@ -97,7 +97,7 @@ function PhotoSlider({ data, BodySections }) {
           <div ref={nextRef} className="swiper-next-el">
             <img src={NavigationArrowRight} alt="Next button" />
           </div>
-        </>
+        </div>
       ) : (
         <p className="w-100 text-center fw-bold fs-1">No data available</p>
       )}

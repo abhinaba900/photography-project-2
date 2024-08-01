@@ -1,64 +1,38 @@
 ﻿/* HomePage.css */
 .background {
-  height: 70vh;
+  height: 80vh;
   width: 100vw;
+  overflow: hidden;
 }
 
-.background::after {
-  background-image: url("https://s3-alpha-sig.figma.com/img/bcf1/6fca/cc644a8e53fbb697c5ce46b7def0a9dc?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fdC2nY9qIbqlYZwO7dOH-6M4yp2kpKLKLtPyUFV8AiGafSBBzn6ADu50HvJFzT9OR5CnZujxJXYjKuMiqAAA92oUagKvJ5zB9aoy25BADWR~L3uqTpPUqVzBKG0U8zvwI1M40t6vQKMpRFn0X3nITT76qJLtiT9Np6siFJAkk-Ugsf8Y6g3frBzGGchmV4i3jrSEb7rv098bkmYLcoau9ZwkSATs8wkNtv41YdnnsVrrZT8oV-gDRm2tgKWkGtSF~xWbsbhakjcq7L3P5bA7ApQjrPt5as~ivES6YZMPVGgcEWGpjU15-BvwJMX6KPiFrseW~mwPUTeRn5VchcMlnw__");
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -16%;
+.background-image {
   width: 100%;
   height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  position: absolute;
+  object-fit: cover;
   z-index: -1;
 }
 
 .content {
-  background-color: #fff;
-  height: 80.5vh;
+  background-color: #f6f6f4;
 }
 
 @media (max-width: 768px) {
   .content {
-    height: 75vh;
+    height: 100%;
   }
-  
-}
-body {
-  overflow: hidden;
+
+  .background {
+    overflow: hidden;
+  }
+
+  .background-image {
+    width: 100%;
+  }
 }
 
 .empty-section-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.empty-section-1,
-.empty-section-2 {
-  height: 7vh;
-  background-color: #fff;
-}
-
-.empty-section-1 {
-  width: 73vh;
-}
-
-.empty-section-2 {
-  width: 70.5vh;
-}
-
-
-@media (max-width: 768px) {
-
-  .empty-section-1,
-  .empty-section-2 {
-    display: none;
-  }
-  
 }

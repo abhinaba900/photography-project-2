@@ -36,8 +36,12 @@ function PhotoGraphSlider({ data }) {
 
   const slides = data?.map((slide, index) => (
     <SwiperSlide key={uuidv4() + index}>
-      <section>
-        <img loading="lazy" src={slide} alt={`Slide ${index + 1}`} />
+      <section key={`slide-home-${index + uuidv4()}`}>
+        <img
+          loading="lazy"
+          src={slide}
+          alt={`slides-home-${index + uuidv4()}`}
+        />
       </section>
     </SwiperSlide>
   ));
@@ -50,7 +54,7 @@ function PhotoGraphSlider({ data }) {
   return (
     <div className="photograph-slider-container-parent container">
       {dataAvailable ? (
-        <>
+        <div className="swiper-main-container">
           <Swiper
             slidesPerView={3}
             spaceBetween={80}
@@ -98,7 +102,7 @@ function PhotoGraphSlider({ data }) {
           <div ref={nextRef} className="swiper-next">
             <img src={NavigationArrowRight} alt="Next button" />
           </div>
-        </>
+        </div>
       ) : (
         <p>No data available</p>
       )}
