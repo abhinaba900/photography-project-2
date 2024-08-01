@@ -46,6 +46,8 @@ function PhotoSlider({ data, BodySections }) {
   // Check the number of slides and adjust Swiper settings accordingly
   const loopMode = data?.length > 2;
 
+  
+
   return (
     <div className="photograph-slider-container-parent photograph-slider-container-parent-2 container">
       {dataAvailable ? (

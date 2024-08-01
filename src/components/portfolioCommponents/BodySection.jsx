@@ -24,7 +24,30 @@ function BodySection({ BodySections }) {
 
   return (
     <div>
-      <PhotoSlider data={data.images} BodySections={BodySections} />
+      {BodySections === "See all" && (
+        <PhotoSlider data={data.images} BodySections={BodySections} />
+      )}
+      {BodySections === "Wildlife" && (
+        <PhotoSlider data={data.images} BodySections={BodySections} />
+      )}
+      {BodySections === "Travel" && (
+        <PhotoSlider data={data.images} BodySections={BodySections} />
+      )}
+      {BodySections === "Still Life" && (
+        <PhotoSlider data={data.images} BodySections={BodySections} />
+      )}
+      {BodySections === "Creative" && (
+        <PhotoSlider data={data.images} BodySections={BodySections} />
+      )}
+      {BodySections === "Macro" && (
+        <PhotoSlider data={data.images} BodySections={BodySections} />
+      )}
+      {BodySections === "Nature" && (
+        <PhotoSlider data={data.images} BodySections={BodySections} />
+      )}
+      {BodySections === "People" && (
+        <PhotoSlider data={data.images} BodySections={BodySections} />
+      )}
     </div>
   );
 }
