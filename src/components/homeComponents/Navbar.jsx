@@ -36,13 +36,11 @@ function Navbar() {
               Portfolio
             </Link>
             <Link
-              to={"/about"}
               className={location.pathname === "/about" ? "active" : ""}
             >
               About
             </Link>
             <Link
-              to={"/contact"}
               className={location.pathname === "/contact" ? "active" : ""}
             >
               Contact
