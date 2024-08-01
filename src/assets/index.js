@@ -1,6 +1,6 @@
 ﻿import MainLogo from "./ap_logo 1.png";
 import InstagramLogo from "./mdi_instagram.png";
-import FacebookLogo from "./ri_facebook-fill.jpg";
+import FacebookLogo from "./ri_facebook-fill.png";
 import YoutubeLogo from "./mdi_youtube.png";
 import SliderImage1 from "./Rectangle 25 (1).png";
 import SliderImage2 from "./Rectangle 25.jpg";

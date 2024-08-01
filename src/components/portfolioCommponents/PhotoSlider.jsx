@@ -8,6 +8,7 @@ function PhotoSlider({ data, BodySections }) {
   const nextRef = useRef(null);
   const [dataAvailable, setDataAvailable] = React.useState(false);
   const [slides, setSlides] = React.useState([]);
+  const [loading, setLoading] = React.useState(false);
 
   useEffect(() => {
     if (data?.length > 0) {
@@ -39,18 +40,24 @@ function PhotoSlider({ data, BodySections }) {
         </SwiperSlide>
       )) || [];
     if (data?.length > 0) {
-      setSlides(slides);
+      setLoading(true);
+      const timer = setTimeout(() => {
+        setLoading(false);
+        setSlides(slides);
+      }, 1000);
+
+      return () => clearTimeout(timer);
     }
   }, [data, BodySections]);
 
   // Check the number of slides and adjust Swiper settings accordingly
   const loopMode = data?.length > 2;
 
-  
-
   return (
     <div className="photograph-slider-container-parent photograph-slider-container-parent-2 container">
-      {dataAvailable ? (
+      {loading ? (
+        <p className="w-100 text-center fw-bold fs-1">Loading...</p>
+      ) : dataAvailable ? (
         <div className="swiper-main-container">
           <Swiper
             slidesPerView={3}

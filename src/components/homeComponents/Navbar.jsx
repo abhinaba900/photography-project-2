@@ -36,11 +36,15 @@ function Navbar() {
               Portfolio
             </Link>
             <Link
+              to="https://ayan.photography/"
+              target="_blank"
               className={location.pathname === "/about" ? "active" : ""}
             >
               About
             </Link>
             <Link
+              to={"https://ayan.photography/"}
+              target="_blank"
               className={location.pathname === "/contact" ? "active" : ""}
             >
               Contact
@@ -54,9 +58,22 @@ function Navbar() {
           </section>
 
           <section className="social-container">
-            <img src={FacebookLogo} className="cursor" alt="facebook logo" />
-            <img src={InstagramLogo} className="cursor" alt="instagram logo" />
-            <img src={YoutubeLogo} className="cursor" alt="youtube logo" />
+            <a href="https://www.facebook.com/AyaNPhotography" target="_blank">
+              <img src={FacebookLogo} className="cursor" alt="facebook logo" />
+            </a>
+            <a href="https://www.instagram.com/ayan_hore/" target="_blank">
+              <img
+                src={InstagramLogo}
+                className="cursor"
+                alt="instagram logo"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/user/AyaNPhotography"
+              target="_blank"
+            >
+              <img src={YoutubeLogo} className="cursor" alt="youtube logo" />
+            </a>
           </section>
         </div>
       </>

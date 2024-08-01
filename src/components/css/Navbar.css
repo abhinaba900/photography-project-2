@@ -94,6 +94,8 @@
 
 .nav-links-container-mobile.visible {
   right: -10%;
+  transition: all 0.3s ease-in-out;
+
 }
 
 @media (max-width: 1200px) {
