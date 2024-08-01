@@ -57,12 +57,12 @@
 
 .swiper-prev,
 .swiper-prev-el {
-  left: -3.5%;
+  left: -4%;
 }
 
 .swiper-next,
 .swiper-next-el {
-  right: -3.5%;
+  right: -4%;
 }
 
 .cursor {
@@ -75,6 +75,17 @@
 
 .mySwiper .swiper-slide-active {
   transform: scale(1.2);
+}
+
+@media (max-width: 1368px) and (min-width: 768px) {
+  .swiper-slide {
+    width: 16rem;
+    height: 15rem;
+  }
+  .swiper-slide img {
+    width: 17.6rem ;
+    height: 12.2rem;
+  }
 }
 
 @media (max-width: 1199px) and (min-width: 1024px) {
@@ -119,7 +130,7 @@
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1020px) {
   .photograph-slider-container-parent {
     width: 90% !important;
     height: fit-content;
