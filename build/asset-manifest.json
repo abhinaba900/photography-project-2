@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1df4a712.css",
-    "main.js": "/static/js/main.f67f8978.js",
+    "main.js": "/static/js/main.b6e7ea4a.js",
     "static/js/453.0efd63b4.chunk.js": "/static/js/453.0efd63b4.chunk.js",
     "static/media/rachael-gorjestani-X6CZGpJBi8U-unsplash.jpg": "/static/media/rachael-gorjestani-X6CZGpJBi8U-unsplash.36d6b205f3d4a0003dbe.jpg",
     "static/media/zdenek-machacek-UxHol6SwLyM-unsplash.jpg": "/static/media/zdenek-machacek-UxHol6SwLyM-unsplash.d1d4e23256e69e609c8c.jpg",
@@ -40,11 +40,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/index.html",
     "main.1df4a712.css.map": "/static/css/main.1df4a712.css.map",
-    "main.f67f8978.js.map": "/static/js/main.f67f8978.js.map",
+    "main.b6e7ea4a.js.map": "/static/js/main.b6e7ea4a.js.map",
     "453.0efd63b4.chunk.js.map": "/static/js/453.0efd63b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1df4a712.css",
-    "static/js/main.f67f8978.js"
+    "static/js/main.b6e7ea4a.js"
   ]
 }
