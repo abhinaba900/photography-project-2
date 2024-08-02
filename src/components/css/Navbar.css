@@ -16,7 +16,7 @@
 .nav-links-container a {
   text-decoration: none;
   color: #000;
-  font-size: 1rem;
+  font-size: 0.938rem;
   font-weight: 400;
   line-height: 1.406rem;
   font-family: Poppins, sans-serif;
@@ -87,7 +87,7 @@
 .nav-links-container-mobile a {
   text-decoration: none;
   color: #000;
-  font-size: 1.2rem;
+  font-size: .9rem;
   font-weight: 500;
   line-height: 1.406rem;
   font-family: Poppins, sans-serif;
@@ -121,7 +121,6 @@
   }
 
   .nav-links-container-mobile.visible {
-    
     left: 66%;
     transition: all 0.3s ease-in-out;
     z-index: 999;

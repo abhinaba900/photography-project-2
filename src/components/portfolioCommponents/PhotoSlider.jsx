@@ -54,14 +54,13 @@ function PhotoSlider({ data, BodySections }) {
         <div className="swiper-main-container">
           <Swiper
             slidesPerView={3}
-            spaceBetween={80}
             loop={loopMode}
             modules={[Navigation]}
             className="mySwiper"
             breakpoints={{
               1200: {
                 slidesPerView: 3,
-                spaceBetween: 80,
+                spaceBetween: 50,
                 centeredSlides: true,
               },
               768: {

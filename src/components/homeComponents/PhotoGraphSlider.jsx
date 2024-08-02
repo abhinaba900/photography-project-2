@@ -57,7 +57,6 @@ function PhotoGraphSlider({ data }) {
         <div className="swiper-main-container">
           <Swiper
             slidesPerView={3}
-            spaceBetween={80}
             loop={loopMode}
             modules={[Navigation]}
             className="mySwiper"
@@ -68,12 +67,12 @@ function PhotoGraphSlider({ data }) {
             breakpoints={{
               1200: {
                 slidesPerView: 3,
-                spaceBetween: 80,
+                spaceBetween: 50,
                 centeredSlides: true,
               },
               768: {
                 slidesPerView: 2,
-                spaceBetween: 20,
+                spaceBetween: 10,
                 centeredSlides: false,
               },
               430: {

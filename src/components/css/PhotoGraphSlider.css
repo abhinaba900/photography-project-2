@@ -17,7 +17,6 @@
 
 .swiper-slide {
   text-align: center;
-  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,8 +37,6 @@
   object-fit: cover;
   cursor: pointer;
 }
-
-
 
 .swiper-prev,
 .swiper-next {
@@ -86,7 +83,7 @@
     margin-top: 1.5rem;
   }
 
-  .swiper-slide{
+  .swiper-slide {
     padding: 1.5rem;
   }
 
@@ -102,13 +99,11 @@
     height: fit-content;
   }
 
-  .swiper-slide{
+  .swiper-slide {
     padding: 1.5rem;
   }
 
   .mySwiper .swiper-slide-active {
     transform: none;
   }
-
-  
 }
