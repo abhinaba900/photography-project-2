@@ -1,8 +1,12 @@
-﻿/* HomePage.css */
-.background {
+﻿.background {
   height: 80vh;
   width: 100vw;
   overflow: hidden;
+}
+
+.background.scroll {
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 .background-image {
@@ -24,6 +28,12 @@
 
   .background {
     overflow: hidden;
+  }
+
+  .background.scroll {
+    height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
   }
 
   .background-image {

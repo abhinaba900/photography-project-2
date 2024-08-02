@@ -1,7 +1,12 @@
 ﻿import React from "react";
-import { FacebookLogo, InstagramLogo, MainLogo, YoutubeLogo } from "../../assets";
+import {
+  FacebookLogo,
+  InstagramLogo,
+  MainLogo,
+  YoutubeLogo,
+} from "../../assets";
 import { useNavigate, Link } from "react-router-dom";
-
+import { FaHome, FaInfo, FaEnvelope, FaImages } from "react-icons/fa";
 function MobileNavbar() {
   const navigate = useNavigate();
   const [open, setOpen] = React.useState(false);
@@ -20,23 +25,36 @@ function MobileNavbar() {
           className="fa fa-times fs-3 cursor close-btn"
           onClick={() => setOpen(!open)}
         ></i>
-        <Link to={"/portfolio"}>Portfolio</Link>
-        <Link to={"https://ayan.photography/"} target="_blank">About</Link>
-        <Link to={"https://ayan.photography/"} target="_blank">Contact</Link>
+        <Link to={"/portfolio"}>
+          <FaImages /> Portfolio
+        </Link>
+        <Link to={"https://ayan.photography/"} target="_blank">
+          <FaInfo /> About
+        </Link>
+        <Link to={"https://ayan.photography/"} target="_blank">
+          <FaEnvelope /> Contact
+        </Link>
 
-        <section className="social-container">
-          <a href="https://www.facebook.com/AyaNPhotography" target="_blank">
-            <img src={FacebookLogo} className="cursor" alt="facebook logo" />
-          </a>
-          <a href="https://www.instagram.com/ayan_hore/" target="_blank">
-            <img src={InstagramLogo} className="cursor" alt="instagram logo" />
-          </a>
-          <a
-            href="https://www.youtube.com/user/AyaNPhotography"
-            target="_blank"
-          >
-            <img src={YoutubeLogo} className="cursor" alt="youtube logo" />
-          </a>
+        <section>
+          <p className="social-links mt-5 poppins-bold fs-5">Social Links :-</p>
+          <section className="social-container">
+            <a href="https://www.facebook.com/AyaNPhotography" target="_blank">
+              <img src={FacebookLogo} className="cursor" alt="facebook logo" />
+            </a>
+            <a href="https://www.instagram.com/ayan_hore/" target="_blank">
+              <img
+                src={InstagramLogo}
+                className="cursor"
+                alt="instagram logo"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/user/AyaNPhotography"
+              target="_blank"
+            >
+              <img src={YoutubeLogo} className="cursor" alt="youtube logo" />
+            </a>
+          </section>
         </section>
       </div>
     </div>

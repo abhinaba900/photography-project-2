@@ -1,9 +1,22 @@
-﻿.portfolio-head-section {
+﻿/* PortfolioPage.css */
+
+.portfolio-page-main-container {
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+
+}
+
+.portfolio-page-main-container.scroll {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.portfolio-head-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+
   gap: 20px;
 }
 
@@ -13,7 +26,7 @@
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.406rem;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 8rem;
   height: 2.938rem;
   display: flex;
@@ -52,5 +65,16 @@
     margin: 0 auto;
     padding: 1rem;
     margin-top: 1rem;
+  }
+
+  .portfolio-page-main-container {
+    height: 100vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+  }
+
+  body {
+    height: 100vh;
+    margin: 0;
   }
 }

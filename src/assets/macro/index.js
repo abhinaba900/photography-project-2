@@ -1,6 +1,7 @@
-﻿import Macro1 from "./dan-carlson-G86MS2ZsiJA-unsplash.jpg";
-import Macro2 from "./gildardo-rh-q1-dAZuhs7I-unsplash.jpg";
-import Macro3 from "./jill-heyer-U9x5mG0pBiQ-unsplash.jpg";
-import Macro4 from "./mister-starman-ZzpD01gzjrI-unsplash.jpg";
+﻿// import Macro1 from "./Group 28.png";
+// import Macro2 from "./Group 29.png";
+// import Macro3 from "./Group 30.png";
+// import Macro4 from "./Group 31.png";
+// import Macro5 from "./Group 32.png";
 
-export { Macro1, Macro2, Macro3, Macro4 };
+// export { Macro1, Macro2, Macro3, Macro4, Macro5 };

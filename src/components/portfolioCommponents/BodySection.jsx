@@ -23,7 +23,7 @@ function BodySection({ BodySections }) {
   }, [BodySections, datas]);
 
   return (
-    <div>
+    <div >
       {BodySections === "See all" && (
         <PhotoSlider data={data.images} BodySections={BodySections} />
       )}

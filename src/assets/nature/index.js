@@ -1,6 +1,7 @@
-﻿import Nature1 from "./henry-be-IicyiaPYGGI-unsplash.jpg";
-import Nature2 from "./qingbao-meng-01_igFr7hd4-unsplash.jpg";
-import Nature3 from "./samsommer-vddccTqwal8-unsplash.jpg";
-import Nature4 from "./urban-vintage-78A265wPiO4-unsplash.jpg";
+﻿import Nature1 from "./Group 33.png";
+import Nature2 from "./Group 34.png";
+import Nature3 from "./Group 35.png";
+import Nature4 from "./Group 36.png";
+import Nature5 from "./Group 37.png";
 
-export { Nature1, Nature2, Nature3, Nature4 }
+export { Nature1, Nature2, Nature3, Nature4 , Nature5 }
