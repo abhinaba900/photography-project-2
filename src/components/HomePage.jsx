@@ -3,11 +3,8 @@ import Navbar from "./homeComponents/Navbar";
 import PhotoGraphSlider from "./homeComponents/PhotoGraphSlider";
 import Footer from "./homeComponents/Footer";
 import "../components/css/HomePage.css";
-import { Nature1 } from "../assets/nature/index";
-import { People1 } from "../assets/people";
-import { Creative1 } from "../assets/creative";
-import { StillLife1 } from "../assets/still life";
-import { BackgroundImge , Macro1} from "../assets";
+import { Creative1, Creative3 } from "../assets/creative";
+import { BackgroundImge, Macro1, Macro2 } from "../assets";
 
 function HomePage() {
   const [scrollBackground, setScrollBackground] = useState(
@@ -40,7 +37,7 @@ function HomePage() {
       />
       <div className="content">
         <Navbar />
-        <PhotoGraphSlider data={[Nature1, People1, Macro1, Creative1, StillLife1]} />
+        <PhotoGraphSlider data={[Macro1, Creative1, Macro2, Creative3]} />
       </div>
       <Footer />
     </div>

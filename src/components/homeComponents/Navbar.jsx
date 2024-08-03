@@ -25,18 +25,10 @@ function Navbar() {
             >
               Portfolio
             </Link>
-            <Link
-              to="https://ayan.photography/"
-              target="_blank"
-              className={location.pathname === "/about" ? "active" : ""}
-            >
+            <Link className={location.pathname === "/about" ? "active" : ""}>
               About
             </Link>
-            <Link
-              to={"https://ayan.photography/"}
-              target="_blank"
-              className={location.pathname === "/contact" ? "active" : ""}
-            >
+            <Link className={location.pathname === "/contact" ? "active" : ""}>
               Contact
             </Link>
           </section>

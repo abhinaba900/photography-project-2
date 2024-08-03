@@ -28,10 +28,10 @@ function MobileNavbar() {
         <Link to={"/portfolio"}>
           <FaImages /> Portfolio
         </Link>
-        <Link to={"https://ayan.photography/"} target="_blank">
+        <Link>
           <FaInfo /> About
         </Link>
-        <Link to={"https://ayan.photography/"} target="_blank">
+        <Link>
           <FaEnvelope /> Contact
         </Link>
 
