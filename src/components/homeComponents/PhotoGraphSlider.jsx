@@ -52,7 +52,7 @@ function PhotoGraphSlider({ data }) {
   const duplicatedSlides = dataAvailable ? [...slides, ...slides] : [];
 
   return (
-    <div className="photograph-slider-container-parent container">
+    <div className="photograph-slider-container-parent container-fluid">
       {dataAvailable ? (
         <div className="swiper-main-container">
           <Swiper
