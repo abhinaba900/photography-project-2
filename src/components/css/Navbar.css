@@ -7,6 +7,11 @@
   padding: 0 4rem !important; 
 }
 
+@media (min-width:1921px) and (max-width: 2560px){
+  .navbar-container-home{
+    width: 70% !important;
+  }
+}
 .nav-links-container {
   display: flex;
   align-items: center;

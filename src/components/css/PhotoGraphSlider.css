@@ -79,9 +79,23 @@
   transform: scale(1.2);
 }
 
+@media (min-width:1921px) and (max-width: 2560px) {
+  .photograph-slider-container-parent {
+    width: 70% !important;
+    margin-top: 1.5rem;
+    padding: 0 3rem !important;
+  }
+}
+
 @media (max-width: 1199px) {
   .photograph-slider-container-parent {
     margin-top: 1.5rem;
+    padding: 0 3rem !important;
+  }
+
+  .swiper{
+    width: 100%;
+    height: 100%;
   }
 
   .swiper-slide {
@@ -93,11 +107,13 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .photograph-slider-container-parent {
     margin-top: 1.5rem;
     width: 100%;
     height: fit-content;
+    padding: 0 1rem !important;
+
   }
 
   .swiper-slide {
