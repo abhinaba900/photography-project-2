@@ -139,6 +139,11 @@
     display: none;
   }
 
+  .nav-links-container-mobile{
+    width: 65%;
+    height: 100vh;
+  }
+
   .navbar-mobile-container {
     display: flex;
     align-items: center;
@@ -146,5 +151,11 @@
     width: 90%;
     margin: 0 auto;
     padding: 1rem;
+  }
+
+  .nav-links-container-mobile.visible{
+    left: 42%;
+    transition: all 0.3s ease-in-out;
+    z-index: 999;
   }
 }
