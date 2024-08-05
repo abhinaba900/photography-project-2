@@ -40,10 +40,10 @@ function Navbar() {
           </section>
 
           <section className="social-container">
-            <a href="https://www.facebook.com/" target="_blank">
+            <a href="https://www.facebook.com/AyaNPhotography" target="_blank">
               <img src={FacebookLogo} className="cursor" alt="facebook logo" />
             </a>
-            <a href="https://www.instagram.com/" target="_blank">
+            <a href="https://www.instagram.com/ayan_hore/" target="_blank">
               <img
                 src={InstagramLogo}
                 className="cursor"
@@ -51,7 +51,7 @@ function Navbar() {
               />
             </a>
             <a
-              href="https://www.youtube.com/"
+              href="https://www.youtube.com/user/AyaNPhotography"
               target="_blank"
             >
               <img src={YoutubeLogo} className="cursor" alt="youtube logo" />
