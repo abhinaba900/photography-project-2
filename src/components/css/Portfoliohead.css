@@ -18,6 +18,8 @@
   align-items: center;
 
   gap: 20px;
+
+  padding: 0 4rem !important;
 }
 
 .portfolio-head-titles {

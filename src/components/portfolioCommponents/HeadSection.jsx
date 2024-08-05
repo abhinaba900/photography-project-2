@@ -3,7 +3,7 @@ import "../css/Portfoliohead.css";
 function HeadSection({ BodySections, setBodySections }) {
   return (
     <>
-      <div className="portfolio-head-section container">
+      <div className="portfolio-head-section container-fluid">
         <p
           className={`portfolio-head-titles ${
             BodySections === "Wildlife" && "portfolio-head-titles-active"

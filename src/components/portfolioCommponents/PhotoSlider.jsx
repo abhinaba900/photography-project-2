@@ -47,7 +47,7 @@ function PhotoSlider({ data, BodySections }) {
   const loopMode = data?.length > 2;
 
   return (
-    <div className="photograph-slider-container-parent photograph-slider-container-parent-2 container">
+    <div className="photograph-slider-container-parent photograph-slider-container-parent-2 container-fluid">
       {loading ? (
         <p className="w-100 text-center fw-bold fs-1">Loading...</p>
       ) : dataAvailable ? (
