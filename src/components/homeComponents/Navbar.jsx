@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <>
       <>
-        <div className="container navbar-container-home">
+        <div className="container-fluid navbar-container-home">
           <section className="nav-links-container">
             <Link
               to={"/portfolio"}
