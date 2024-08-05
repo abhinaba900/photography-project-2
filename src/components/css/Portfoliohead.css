@@ -51,7 +51,6 @@
 .portfolio-head-titles:hover {
   color: #000;
   font-weight: 500;
-  transform: scale(1.1);
   border: 1px solid #000;
 }
 
