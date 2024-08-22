@@ -69,8 +69,13 @@
     display: flex;
     width: 80%;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1.5rem;
     margin-top: 1rem;
+    border: 1px solid #000;
+    border-radius: 200px;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
   }
 
   .portfolio-page-main-container {

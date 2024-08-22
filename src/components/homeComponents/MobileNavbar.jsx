@@ -16,7 +16,7 @@ function MobileNavbar() {
       <section className="p-1 cursor" onClick={() => navigate("/")}>
         <img src={MainLogo} alt="main logo" />
       </section>
-      <section>
+      {/* <section>
         <i className="fa fa-bars fs-3" onClick={() => setOpen(!open)}></i>
       </section>
 
@@ -56,7 +56,7 @@ function MobileNavbar() {
             </a>
           </section>
         </section>
-      </div>
+      </div> */}
     </div>
   );
 }

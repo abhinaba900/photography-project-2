@@ -1,5 +1,5 @@
 ﻿.background {
-  height: 80vh;
+  height: 100vh;
   width: 100vw;
   overflow: hidden;
 }
@@ -19,15 +19,47 @@
 
 .content {
   background-color: #f6f6f4;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
-@media (max-width: 768px) {
+.social-container-mobile {
+  display: none;
+}
+
+#navigation-menu {
+  display: none;
+}
+
+@media (max-width: 1199px) {
   .content {
-    height: 100%;
+    background-size: calc(100vh); /* Adjust the size for mobile */
+    background-position: bottom center; /* Align the image to the bottom center on mobile */
+    padding-bottom: 4rem !important; /* Optional: Add padding to adjust spacing */
   }
 
-  .background {
-    overflow: hidden;
+  .social-container-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  #navigation-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 1rem;
   }
 
   .background.scroll {

@@ -3,6 +3,7 @@ import Navbar from "./homeComponents/Navbar";
 import Footer from "./homeComponents/Footer";
 import HeadSection from "./portfolioCommponents/HeadSection";
 import BodySection from "./portfolioCommponents/BodySection";
+import { FacebookLogo, InstagramLogo,  YoutubeLogo } from "../assets";
 
 function PortfolioPage() {
   const [BodySections, setBodySections] = useState("Wildlife");
@@ -33,6 +34,17 @@ function PortfolioPage() {
       }`}
     >
       <Navbar />
+      <section className="social-container social-container-mobile">
+        <a href="https://www.facebook.com/AyaNPhotography" target="_blank">
+          <img src={FacebookLogo} className="cursor" alt="facebook logo" />
+        </a>
+        <a href="https://www.instagram.com/ayan_hore/" target="_blank">
+          <img src={InstagramLogo} className="cursor" alt="instagram logo" />
+        </a>
+        <a href="https://www.youtube.com/user/AyaNPhotography" target="_blank">
+          <img src={YoutubeLogo} className="cursor" alt="youtube logo" />
+        </a>
+      </section>
       <HeadSection
         BodySections={BodySections}
         setBodySections={setBodySections}
